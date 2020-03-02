@@ -1,0 +1,8 @@
+; ============================= ;
+;  CORONAVIRUS TRACKING MODULE  ;
+; ============================= ;
+
+[module/covid_tracker]
+type = custom/script
+exec = "$POLYBAR_SCRIPTS/polybar_covid_tracker/covid_tracker.sh"
+interval = 600

@@ -6,4 +6,4 @@
 #  https://github.com/ExpDev07/coronavirus-tracker-api                  #
 # ===================================================================== #
 
-echo "Hello World"
+echo " Hello World "
