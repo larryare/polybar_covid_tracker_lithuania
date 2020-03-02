@@ -6,4 +6,16 @@
 #  https://github.com/ExpDev07/coronavirus-tracker-api                  #
 # ===================================================================== #
 
-echo " Hello World "
+URL="https://coronavirus-tracker-api.herokuapp.com/all"
+res=$(curl -sf "$URL")
+
+if [ -z "$res" ]; then
+    echo " Impossible to fetch data. "
+    return 1
+fi
+
+nb_confirmed=$(jq '.["latest"]["confirmed"]' <<< $res)
+nb_death=$(jq '.["latest"]["deaths"]' <<< $res)
+nb_recovered=$(jq '.["latest"]["recovered"]' <<< $res)
+
+echo "  $nb_confirmed |  $nb_death |  $nb_recovered "
