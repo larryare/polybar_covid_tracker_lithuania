@@ -2,8 +2,8 @@
 
 # ===================================================================== #
 #  file: covid_tracker.sh                                               #
-#  Fetch coronavirus progression data from the coronavirus-tracker API  #
-#  https://github.com/ExpDev07/coronavirus-tracker-api                  #
+#  Fetch coronavirus progression data from the Free Covid19 API at      #
+#  https://covid19api.com/                                              #
 # ===================================================================== #
 
 URL="https://api.covid19api.com/world/total"
