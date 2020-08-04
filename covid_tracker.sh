@@ -6,7 +6,7 @@
 #  https://github.com/ExpDev07/coronavirus-tracker-api                  #
 # ===================================================================== #
 
-URL="https://coronavirus-tracker-api.herokuapp.com/all"
+URL="https://api.covid19api.com/world/total"
 res=$(curl -sf "$URL")
 
 if [ -z "$res" ]; then
@@ -14,8 +14,8 @@ if [ -z "$res" ]; then
     return 1
 fi
 
-nb_confirmed=$(jq '.["latest"]["confirmed"]' <<< $res)
-nb_death=$(jq '.["latest"]["deaths"]' <<< $res)
-nb_recovered=$(jq '.["latest"]["recovered"]' <<< $res)
+nb_confirmed=$(jq '.["TotalConfirmed"]' <<< $res)
+nb_death=$(jq '.["TotalDeaths"]' <<< $res)
+nb_recovered=$(jq '.["TotalRecovered"]' <<< $res)
 
 echo "  $nb_confirmed |  $nb_death |  $nb_recovered "
