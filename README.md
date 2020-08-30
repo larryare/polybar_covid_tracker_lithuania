@@ -1,4 +1,9 @@
-# Polybar Covid Tracker
+# Polybar Covid Tracker V2
+
+## How is this fork different?
+
+- Different API provider
+- Change `URL="https://disease.sh/v3/covid-19/countries/YOURCOUNTRYCODE?strict=true"`, so that `YOUROWNCOUNTRY` is some code from [ISO3166 country list](https://en.wikipedia.org/wiki/List_of_ISO_3166_country_codes). If you need an example, it's already preconfigured to lt (Lithuania) in the [covid_tracker.sh](covid_tracker.sh) script.
 
 ## Synopsis
 
