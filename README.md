@@ -2,6 +2,12 @@
 
 ## How is this fork different?
 
+### More features
+
+- Shows cases, deaths and recoveries trends
+
+### Misc and how to configure
+
 - Different API provider
 - Change `URL="https://disease.sh/v3/covid-19/countries/YOURCOUNTRYCODE?strict=true"`, so that `YOUROWNCOUNTRY` is some code from [ISO3166 country list](https://en.wikipedia.org/wiki/List_of_ISO_3166_country_codes). If you need an example, it's already preconfigured to lt ([Lithuania](https://en.wikipedia.org/wiki/Lithuania)) in the [covid_tracker.sh](covid_tracker.sh) script.
 
