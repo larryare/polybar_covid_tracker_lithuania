@@ -3,7 +3,7 @@
 # ===================================================================== #
 #  file: covid_tracker.sh                                               #
 #  Fetch coronavirus progression data from the Free Covid19 API at      #
-#  https://covid19api.com/                                              #
+#  https://disease.sh                                                   #
 # ===================================================================== #
 
 URL="https://disease.sh/v3/covid-19/countries/lt?strict=true"
