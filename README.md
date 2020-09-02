@@ -1,5 +1,9 @@
 # Polybar Covid Tracker V2
 
+## Preview
+
+![Covid Tracker Pic](https://kerezius.lt/rszcovidtracker.png)
+
 ## How is this fork different?
 
 ### More features
