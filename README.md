@@ -2,7 +2,7 @@
 
 ## Preview
 
-![Covid Tracker Pic](https://kerezius.lt/rszcovidtracker.png)
+![Covid Tracker Pic](https://kerezius.lt/covidtrackercrop.png)
 
 ## How is this fork different?
 
